@@ -1,0 +1,58 @@
+header div .logo {
+  color: #000;
+}
+header div button a {
+  color: #fff;
+}
+
+.carousel_img {
+  width: 100vw;
+  height: 75vh;
+  object-fit: cover;
+}
+
+.profile_cont .profile {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+#review2 {
+  margin-top: 5vh;
+  border: solid #000 1px;
+  border-radius: 10px;
+  height: 20vh;
+}
+
+.margen {
+  margin-top: 20vh;
+}
+
+.stars {
+  position: relative;
+  top: -5rem;
+  left: 8rem;
+}
+.stars .out {
+  border-radius: 50px;
+  border: #000 0.5px solid;
+  background-color: rgba(224, 224, 224, 0.7);
+}
+.stars .out .in {
+  border-radius: 50px;
+  border: none;
+}
+.stars .info2 {
+  width: 25vw;
+  color: #000;
+}
+
+.info {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.info p {
+  color: #000;
+}
+
+/*# sourceMappingURL=output.css.map */
