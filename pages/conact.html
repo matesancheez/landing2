@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/output.css">
+    <title>Landing page</title>
+</head>
+<body >
+  
+      <!--Header-->
+      <header class="container-fluid" style="background-color: #e3e3e3;">
+        <div class="row ms-5 p-3" id="header">
+            <a href="../index.html" class="col-10 logo"><span class="iconify-inline" data-icon="healthicons:justice" data-width="50"></span></a>
+            <button type="button" class="btn col-lg-1 d-none d-lg-inline" style="background-color: #0a4275;">
+                <a href="#" style="color: #e3e3e3;" class="text-decoration-none">Contact Us</a>
+            </button>
+        </div>
+      </header>
+
+    <main>
+
+      <!--Background image-->
+      <div>
+        <img src="../img/2.jpg" alt="blind justice" class="bg_img">
+      </div>
+
+      <!--Contact Form-->
+      <div>
+        <section class="contact_form">
+          <form>
+            <div id="name">
+              <label >Name</label>
+              <input type="text" placeholder="ex Jhon" size="30" required>
+            </div>
+            <div id="lastname">
+              <label>Lastname</label>
+              <input type="text" placeholder="ex. Doe" size="30" required>
+            </div>
+            <div id="mail">
+              <label>Mail</label>
+              <input type="mail" pattern=".+@.+\.com" placeholder="ex. joe@mail.com" size="30" required>
+            </div>
+            <div id="subject">
+              <label>Subject</label>
+              <input type="text" placeholder="subject" size="30">
+            </div>
+            <div id="message">
+              <label>Message</label>
+              <textarea placeholder="message..." cols="33" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-secondary">Send</button>
+          </form>
+        </section>
+      </div>
+
+    </main>
+
+    <!--Footer-->
+    <footer>
+      <footer class="bg-dark text-center text-white">
+          <!-- Grid container -->
+          <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+              <!-- Facebook -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                  <span class="iconify-inline" data-icon="ei:sc-facebook" data-width="25"></span>
+              </a>
+        
+              <!-- Twitter -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                  <span class="iconify-inline" data-icon="akar-icons:twitter-fill" data-width="25"></span>
+              </a>
+        
+              <!-- Google -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                  <span class="iconify-inline" data-icon="arcticons:maps" data-width="25"></span>
+              </a>
+        
+              <!-- Instagram -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                  <span class="iconify-inline" data-icon="akar-icons:instagram-fill" data-width="25"></span>
+              </a>
+        
+              <!-- Linkedin -->
+              <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                  <span class="iconify-inline" data-icon="akar-icons:linkedin-v2-fill" data-width="25"></span>
+              </a>
+
+            </section>
+            <!-- Section: Social media -->
+          </div>
+          <!-- Grid container -->
+        
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-white" href="https://github.com/matesancheez">Matesancheez</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+</html>

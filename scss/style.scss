@@ -1,0 +1,167 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+// Required Bootstrap imports
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+/*Variables*/
+$xs: 320px; 
+$small: 450px;
+$medium: 800px;
+$large: 1080px;
+$xlarge: 1440px;
+$xxlarge: 2560px;
+
+header{
+    div{
+        .logo{
+            color: #000;
+        }
+        button{
+            a{
+                color: #fff;
+            }
+        }
+    }
+}
+
+
+.profile_cont{
+    .profile{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+}
+
+#review2{
+    margin-top: 5vh;
+    border: solid #000 1px;
+    border-radius: 10px;
+    height: 20vh;
+}
+
+.margen{
+    margin-top: 20vh;
+}
+
+
+.info{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    p{
+        color: #000;
+    }
+}
+
+.noline{
+    text-decoration: none;
+}
+
+/*Reviws de clientes*/
+
+.container-m {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding:20px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 15px;
+    border: none;
+    height: 250px;
+    margin-top: 10px
+}
+
+.u-color {
+    color: blue;
+}
+
+.user-image img {
+    border: 3px solid #00f;
+    padding: 2px
+}
+
+.contact_form{
+    background-color: rgba($color: #000000, $alpha: 0.8);
+    width: fit-content;
+    border: solid #000 1px;
+    border-radius: 10px;
+    position: absolute;
+    form{
+        label{
+            color: #fff;
+        }
+        div{
+            margin-top: 2rem;
+            input{
+                display: block;
+                margin: 1.5vh 0vw 1.5vh 0vw;
+                padding: 0.3rem;
+                border-radius: 10px;
+                border-style: none;
+            }
+            textarea{
+                display: block;
+                margin: 1.5vh 0vw 1.5vh 0vw;
+                border-radius: 10px;
+                border-style: none;
+            }
+            
+        }
+        
+        button{
+            padding: 0.5rem 2rem;
+            margin: 2vh 0vw 0vh 5vw;
+        }
+    }
+}
+
+
+/*Breakpoints*/
+@media (min-width: $medium){
+    .contact_form{
+        padding: 1rem 1.2rem ;
+        top: 18vh;
+        left: 40vw;
+    }
+} 
+
+@media (max-width: $medium){
+    .contact_form{
+        padding: 1rem 1.2rem ;
+        top: 16vh;
+        left: 30vw;
+    }
+}
+
+@media (max-width: $small){
+    .contact_form{
+        padding: 1rem 1.2rem ;
+        top: 15vh;
+        left: 10vw;
+    }
+}
+
+@media (max-width: $xs){
+    .contact_form{
+        padding: 1rem 1.2rem ;
+        top: 15vh;
+        left: 2vw;
+    }
+}
+
+/*Image resize*/
+.bg_img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
